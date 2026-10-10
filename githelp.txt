@@ -1,0 +1,10 @@
+git config --global user.name "Ваше Имя"
+git config --global user.email "ваш@email.com"
+cd /home/tc
+git init
+git clone https://github.com/Keksiki12/AUlab.git
+cd AUlab
+cp /home/tc/screenshots.7z .
+git add screenshots.7z
+git commit -m "Add Quake screenshots"
+git push
