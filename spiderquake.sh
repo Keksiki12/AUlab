@@ -1,6 +1,6 @@
 #!/bin/sh
 
-tazpkg -gi tazpkg
+tazpkg -gi tazpkg --forced
 tazpkg -gi gcc
 tazpkg -gi make
 tazpkg -gi libsdl-dev
