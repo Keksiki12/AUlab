@@ -1,5 +1,9 @@
 #!/bin/sh
 
+tazpkg get-install gcc
+tazpkg get-install make
+tazpkg get-install libsdl-dev
+
 # --- Конфигурация ---
 QUAKE_DIR="$HOME/quake" # Директория для установки
 SDL_QUAKE_URL="https://www.libsdl.org/projects/quake/src/sdlquake-1.0.9.tar.gz"
