@@ -3,7 +3,7 @@ tazpkg get-install libsdl-dev
 tazpkg get-install libmad-dev
 tazpkg get-install libvorbis-dev
 
-wget https://github.com/sezero/quakespasm/archive/refs/heads/master.zip
+wget http://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/q/quakespasm/quakespasm_0.96.3+dfsg.orig.tar.xz
 unzip master.zip
 cd quakespasm-master/Quake
 make
