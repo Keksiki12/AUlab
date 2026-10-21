@@ -7,8 +7,8 @@ wget https://github.com/sezero/quakespasm/archive/refs/heads/master.zip
 unzip master.zip
 cd quakespasm-master/Quake
 make
-wget https://raw.githubusercontent.com/Keksiki12/AUlab/PAK1.PAK
-wget https://raw.githubusercontent.com/Keksiki12/alt/PAK0.PAK
+wget https://raw.githubusercontent.com/Keksiki12/AUlab/main/PAK1.PAK
+wget https://raw.githubusercontent.com/Keksiki12/alt/main/PAK0.PAK
 cd ~
 mkdir -p quake/id
 mv PAK1.PAK /quake/id1/pak1.pak
