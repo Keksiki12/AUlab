@@ -4,7 +4,8 @@ tazpkg get-install libmad-dev
 tazpkg get-install libvorbis-dev
 
 wget http://archive.ubuntu.com/ubuntu/ubuntu/pool/universe/q/quakespasm/quakespasm_0.96.3+dfsg.orig.tar.xz
-unzip master.zip
+# unzip master.zip
+unzip master.zip "quakespasm-master/Quake/*" -d .
 cd quakespasm-master/Quake
 make
 wget https://raw.githubusercontent.com/Keksiki12/AUlab/main/PAK1.PAK
